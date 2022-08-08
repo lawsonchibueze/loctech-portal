@@ -14,14 +14,15 @@ const About = ({ AboutData }) => {
           {AboutData.map((about) => {
             const src = urlFor(about.image).url()
             return (
-              <Image
-                className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
-                loader={() => src}
-                src={src}
-                alt=''
-                width={600}
-                height={500}
-              />
+              <div className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'>
+                <Image
+                  loader={() => src}
+                  src={src}
+                  alt=''
+                  width={600}
+                  height={500}
+                />
+              </div>
             )
           })}
 
