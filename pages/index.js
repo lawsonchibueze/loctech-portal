@@ -33,7 +33,7 @@ export default function Home({
           <Header />
           <Hero HeroData={HeroData.length && HeroData[0]} />
           <Brands BrandData={BrandData} />
-          <About AboutData={AboutData} />
+          {/* <About AboutData={AboutData} /> */}
           <Skills />
           <Portfolio />
           <Services />
