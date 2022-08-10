@@ -10,6 +10,7 @@ import Portfolio from '../components/Portfolio'
 import Services from '../components/Services'
 import Skills from '../components/Skills'
 // import Testimonials from '../components/Testimonials'
+
 import { client } from '../lib/client'
 
 export default function Home({
@@ -33,7 +34,8 @@ export default function Home({
           <Header />
           <Hero HeroData={HeroData.length && HeroData[0]} />
           <Brands BrandData={BrandData} />
-          {/* <About AboutData={AboutData} /> */}
+          <About AboutData={AboutData.length && AboutData[0]} />
+
           <Skills />
           <Portfolio />
           <Services />

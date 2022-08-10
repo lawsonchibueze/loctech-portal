@@ -44,7 +44,7 @@ const Hero = ({ HeroData }) => {
               src={src}
               alt='Hero Image'
               height={500}
-              width={300}
+              width={400}
             />
           </div>
         </div>
