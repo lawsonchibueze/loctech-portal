@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { urlFor } from '../lib/client'
 
 // import img
-import AboutImage from '../assets/img/LoctechBuilding.jpg'
+// import AboutImage from '../assets/img/LoctechBuilding.jpg'
 
 const About = ({ AboutData }) => {
   const src = urlFor(AboutData.image).url()
