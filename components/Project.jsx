@@ -9,20 +9,24 @@ const Project = ({ item }) => {
         <Image className='rounded-2xl' src={item.image} alt='' />
       </div>
       <div className='border-white border-opacity-50 z-50'>
-        <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
-        <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
-        <p className='text-white max-w-md text-justify'>
+        <p className='capitalize md:text-semibold md:text-xl text-black text-sm mb-3'>
+          {item.category}
+        </p>
+        <h3 className='text-2xl font-semibold capitalize mb-3 text-violet-700'>
+          {item.name}
+        </h3>
+        <p className='text-black max-w-md text-justify'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
           obcaecati ipsam.Lorem ipsum dolor sit amet, consectetur adipisicing
           elit veniam obcaecati ipsam.
         </p>
-        <div className='flex  flex-wrap tracking-wide items-center gap-64 md:gap-60 pt-4 border-pink-500 text-pink-400'>
+        <div className='flex  flex-wrap tracking-wide items-center gap-64 md:gap-60 pt-4 border-black text-violet-600'>
           <Link href='/'>
             <p className='  text-left'>learn more</p>
           </Link>
 
           <Link href='/#'>
-            <button className='text-white hover:bg-secondary-hover m-2'>
+            <button className='text-black md:text-semi hover:bg-secondary-hover m-2'>
               N5000
             </button>
           </Link>

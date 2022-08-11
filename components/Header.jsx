@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Logo from '../assets/img/logo4.png'
+import Logo from '../assets/img/logo1.png'
 import Nav from './Nav'
 import NavMobile from './NavMobile'
 import Socials from './Socials'
@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header
       className={`${
-        bg ? 'bg-purple-800 h-20' : 'h-24'
+        bg ? 'bg-gray-100 h-20' : 'h-24'
       } flex items-center fixed top-0 w-full text-black z-10 transition-all duration-300`}
     >
       <div className='container mx-auto h-full flex items-center justify-between'>
@@ -32,8 +32,11 @@ const Header = () => {
           <Nav />
         </div>
         {/* Socials */}
-        <div className='hidden lg:block'>
-          <Socials />
+        <div className='hidden lg:block bg-violet-700 hover:bg-violet-800 text-white px-4 py-3 rounded-lg transition'>
+          <Link href='/'>
+            <a href=''>Sign up</a>
+          </Link>
+          {/* <Socials /> */}
         </div>
         {/* nav mobile*/}
         <div className='lg:hidden'>

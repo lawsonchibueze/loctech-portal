@@ -5,13 +5,13 @@ import Projects from './Projects'
 
 const Portfolio = () => {
   return (
-    <section id='portfolio' className='section bg-[#2E0249] min-h-[1400px]'>
+    <section id='portfolio' className='section bg-gray-100 min-h-[1400px]'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <h2 className='section-title before:content-portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>
+          <h2 className='section-title before:content-portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block text-red-600'>
             Our Latest Courses
           </h2>
-          <p className='subtitle text-white'>
+          <p className='subtitle text-black text-xl'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
             labore nisium illum cupiditate reiciendis a numquam
           </p>

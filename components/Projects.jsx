@@ -33,7 +33,7 @@ const Projects = () => {
     <div>
       {/* projects nav */}
       <nav className='mb-12 max-w-xl mx-auto'>
-        <ul className='flex flex-col md:flex-row justify-evenly items-center text-white'>
+        <ul className='flex flex-col md:flex-row justify-evenly items-center md:font-semibold text-red-600 text-xl'>
           {projectsNav.map((item, index) => {
             return (
               <li
