@@ -24,11 +24,11 @@ const About = ({ AboutData }) => {
               <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 text-red-600 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block'>
                 {AboutData.largeText}
               </h2>
-              <p className='mb-4 text-violet-700 md:text-2xl'>
+              <p className='mb-4 text-violet-700 text-2xl'>
                 {AboutData.introText}
               </p>
               <hr className='mb-8  divide-black' />
-              <p className='mb-8 text-black md:text-xl'>{AboutData.desc}</p>
+              <p className='mb-8 text-black text-xl'>{AboutData.desc}</p>
             </div>
             <button className='btn btn-md bg-purple-800 hover:bg-secondary-hover transition-all text-white'>
               {AboutData.buttonText}
