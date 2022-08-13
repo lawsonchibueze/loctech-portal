@@ -6,7 +6,7 @@ const Project = ({ item }) => {
   return (
     <section>
       <div className='flex flex-col items-center text-center'>
-        <div class='p-2 bg-purple-600 rounded-md' key={item.id}>
+        <div className='p-2 bg-purple-600 rounded-md' key={item.id}>
           <Image src={item.image} className='h-52 w-full object-cover' />
           <div className='text-center mt-2 mb-2'>
             <strong className='font-bold text-white'>{item.category}</strong>
